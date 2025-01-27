@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope, Time, and Functions</title>
+</head>
+<body>
+    <button onclick="globalFunction()">Check Global Variable</button>
+    <p id="Global"></p>
+
+    <button onclick="localFunction()">Check Local Variable</button>
+    <p id="Local"></p>
+
+    <button onclick="errorFunction()">Test Error Function</button>
+    <p id="Error"></p>
+
+    <p id="Time_of_day" onclick="Time_function()">Greeting message</p>
+
+    <button onclick="checkAge()">Check Age</button>
+    <p id="Age_Result"></p>
+
+    <p>Enter your age to verify if you can enter the event:</p>
+    <input id="Age_Input" value="18" />
+    <button onclick="verifyAge()">Verify Age</button>
+    <p id="Verification_Result"></p>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
